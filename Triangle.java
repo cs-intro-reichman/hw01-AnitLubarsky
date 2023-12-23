@@ -5,6 +5,12 @@
  */ 
 public class Triangle {
 	public static void main(String[] args) {
-		// Put your code here	
+		int x = Integer.parseInt(args[0]);
+		int y = Integer.parseInt(args[1]);
+		int z = Integer.parseInt(args[2]);
+		boolean isTriangle;
+		isTriangle = (((x +y > z) && (x + z > y ) && ( y + z > x)) == true);
+		System.out.println(x + "," + y + "," + z + ":" + isTriangle);
+
 	}
 }
