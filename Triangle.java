@@ -10,7 +10,7 @@ public class Triangle {
 		int z = Integer.parseInt(args[2]);
 		boolean isTriangle;
 		isTriangle = (((x +y > z) && (x + z > y ) && ( y + z > x)) == true);
-		System.out.println(x + "," + y + "," + z + ":" + isTriangle);
+		System.out.println(x + ", " + y + ", " + z + ": " + isTriangle);
 
 	}
 }
