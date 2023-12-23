@@ -10,8 +10,6 @@ public class GenThree {
 		int y = (int)((b-a)*Math.random()+a);
 		int z = (int)((b-a)*Math.random()+a);
 		System.out.println(x +"\n"+ y + "\n" + z);
-		int v = Math.min( x, y);
-		int k = Math.min( v, z);
-		System.out.println("The minimal generated number was " + k);
+		System.out.println("The minimal generated number was " + Math.min(x, Math.min(y, z)));
 	}
 }
