@@ -4,9 +4,6 @@
  */
 public class GenThree {
 	public static void main(String[] args) {
-		for (String s: args) {
-            System.out.println(s);
-        }
 		int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
 		int x = (int)((b-a)*Math.random()+a);
